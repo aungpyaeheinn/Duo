@@ -1,4 +1,5 @@
 import { Menu } from "lucide-react";
+import "./index.css";
 
 function App() {
   return (
@@ -28,31 +29,62 @@ function App() {
               <a href="">Reviews</a>
             </li>
           </ul>
-          <button className="bg-own-primary lg:flex hidden px-4 py-[6px] text-white font-semibold rounded-md">
-            Buy Template
-          </button>
+          <button className="btn lg:flex hidden">Buy Template</button>
           <Menu size={30} className="lg:hidden block" />
         </div>
       </div>
-      <div className="flex padding">
+      <div className="hero-bg-image pb-20 flex padding items-end mt-20 bg-no-repeat bg-[url(https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665b169cd354209f30160ac5_Square-Shapes.svg)]">
         <div className="w-[50%]">
-          <div>
-            <h1 className="text-6xl font-bold">
-              Landing Page Template for Startups
+          <div className="w-[70%] flex flex-col gap-4">
+            <h1 className="text-6xl leading-[1.1] font-bold">
+              Landing Page Template for
+              <span className="text-own-primary">Startups</span>
             </h1>
             <p>
               Use our template to quickly and efficiently brand your growing
               business.
             </p>
-            <div>
-              <button>Preview Template</button>
-              <button>Learn More</button>
+            <div className="flex items-center gap-3">
+              <button className="btn !px-8 !py-4">Preview Template</button>
+              <button className="outline-btn !px-8 !py-4">Learn More</button>
             </div>
           </div>
         </div>
         <div className="w-[50%]">
           <img
             src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/662a5c31b674b313da821db0_Hero-Illustration.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="padding">
+        <h1 className="text-lg font-semibold text-center">
+          More than <span className="text-own-primary">1000+</span> Companies
+          using our template
+        </h1>
+        <div className="flex items-center justify-between mt-6">
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665ab9ed663c4f53ebba1e8_DotSquare-Logo.svg"
+            alt=""
+          />
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665abbcfc4dca184183e738_Wiggle-Logo.svg"
+            alt=""
+          />
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665abe3bb1cc3289b9bfd5a_Sealife-Logo.svg"
+            alt=""
+          />
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665ac001434b3a48f948b84_LoopMedia-Logo.svg"
+            alt=""
+          />
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665ac172b9167ca66cce90e_Tricole45-Logo.svg"
+            alt=""
+          />
+          <img
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665ac32bb1cc3289b9c29a4_PlutoDelux-Logo.svg"
             alt=""
           />
         </div>

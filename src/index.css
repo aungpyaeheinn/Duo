@@ -7,8 +7,18 @@
 
 @tailwind utilities;
 
-@layer utilities{
-  .padding{
-    @apply xl:px-20 lg:px-16 md:px-10 px-6 
+@layer utilities {
+  .padding {
+    @apply xl:px-20 lg:px-16 md:px-10 px-5;
   }
+  .btn {
+    @apply bg-own-primary px-4 py-[6px] text-white font-semibold rounded-md;
+  }
+  .outline-btn {
+    @apply border-[2px] border-own-primary px-4 py-[6px] text-own-primary font-semibold rounded-md;
+  }
+}
+
+.hero-bg-image {
+  background-position: -5% 90%;
 }
