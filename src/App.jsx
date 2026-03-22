@@ -40,7 +40,7 @@ function App() {
       </div>
       <div className="hero-bg-image pb-20 flex padding items-end mt-20 bg-no-repeat bg-[url(https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665b169cd354209f30160ac5_Square-Shapes.svg)]">
         <div className="w-[50%]">
-          <div className="flex flex-col gap-4 w-[70%]">
+          <div className="flex flex-col gap-4 xl:w-[70%] w-full">
             <h1 className="text-6xl leading-[1.1] font-bold">
               Landing Page Template for{" "}
               <span className="text-own-primary">Startups</span>
@@ -67,7 +67,7 @@ function App() {
           More than <span className="text-own-primary">1000+</span> Companies
           using our template
         </h1>
-        <div className="flex items-center justify-between mt-6">
+        <div className="grid md:grid-cols-6 grid-cols-2 gap-10 items-center justify-items-center mt-6">
           <img
             src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6665ab9ed663c4f53ebba1e8_DotSquare-Logo.svg"
             alt=""
