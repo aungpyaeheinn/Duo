@@ -17,6 +17,16 @@
   .outline-btn {
     @apply border-[2px] border-own-primary px-4 py-[6px] text-own-primary font-semibold rounded-md;
   }
+  .section-heading {
+    @apply text-3xl md:text-4xl font-semibold md:font-bold;
+  }
+  .section-description {
+    @apply w-full md:w-[70%] lg:w-[60%] xl:w-[40%] mt-2;
+  }
+}
+
+body {
+  background-color: #eeeeee;
 }
 
 .hero-bg-image {
