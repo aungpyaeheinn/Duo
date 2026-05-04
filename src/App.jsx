@@ -320,11 +320,11 @@ function App() {
                 src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/663dd75610a305959e91ccb0_checkmark.svg"
                 alt=""
               />
-              <p className="text-lg font-semibold">Create a memorable brand</p>
+              <p className="text-lg font-semibold">Launch Quickly</p>
             </div>
             <p className="mt-2 mb-4">
-              Stand out from the competition and get your target audiences
-              attention with using Duo template.
+              Duo template allows you to launch your website fast. Whether
+              you're building a landing page, a SaaS website, or a product MVP.
             </p>
             <button className="outline-btn">Learn More</button>
           </div>
@@ -471,6 +471,193 @@ function App() {
             <button className="outline-btn mt-10 !px-8 !py-4">
               Get Started
             </button>
+          </div>
+        </div>
+      </div>
+      <div className="flex padding mt-[150px] gap-10 flex-col lg:flex-row">
+        <div className="w-full md:w-[90%] lg:w-[30%] xl:w-[50%]">
+          <h1 className="text-4xl xl:text-5xl font-semibold">
+            Frequently Asked Questions
+          </h1>
+          <img
+            className="w-full xl:w-[80%] mt-10"
+            src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/665aeb5025ec995f44e6c5fd_faq-section-illustration.svg"
+            alt=""
+          />
+        </div>
+        <div className="w-full md:w-[90%] lg:w-[70%] xl:w-[50%] flex flex-col gap-6">
+          <div className="flex items-center bg-black gap-8 px-8 py-4 rounded-2xl justify-between text-white">
+            <p className="text-xl font-bold">Is Webflow SEO-friendly?</p>
+            <div className="w-[30px] shrink-0">
+              <img
+                src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/664f58fe42043c5d4d79a1aa_Faq%20Open%20Icon.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="flex items-center bg-black gap-8 px-8 py-4 rounded-2xl justify-between text-white">
+            <p className="text-xl font-bold">
+              How can I ensure my site looks good on all devices?
+            </p>
+            <div className="w-[30px] shrink-0">
+              <img
+                src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/664f58fe42043c5d4d79a1aa_Faq%20Open%20Icon.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="flex items-center bg-black gap-8 px-8 py-4 rounded-2xl justify-between text-white">
+            <p className="text-xl font-bold">
+              What if I need to add more pages to the template?
+            </p>
+            <div className="w-[30px] shrink-0">
+              <img
+                src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/664f58fe42043c5d4d79a1aa_Faq%20Open%20Icon.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="flex items-center bg-black gap-8 px-8 py-4 rounded-2xl justify-between text-white">
+            <p className="text-xl font-bold">
+              How do I edit the content in a Webflow template?
+            </p>
+            <div className="w-[30px] shrink-0">
+              <img
+                src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/664f58fe42043c5d4d79a1aa_Faq%20Open%20Icon.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="flex items-center bg-black gap-8 px-8 py-4 rounded-2xl justify-between text-white">
+            <p className="text-xl font-bold">
+              Can I customize the Webflow template to fit my brand?
+            </p>
+            <div className="w-[30px] shrink-0">
+              <img
+                src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/664f58fe42043c5d4d79a1aa_Faq%20Open%20Icon.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="mt-14 pt-[100px] pb-[200px] padding bg-[#222831]">
+        <h1 className="text-white text-4xl font-bold text-center">
+          Customer <span className="text-own-primary">Reviews</span>
+        </h1>
+        <div className="grid grids-col-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+          <div className="border-[3px] border-black/20 text-white rounded-3xl p-8  hover:border-own-primary transition-all">
+            <p className="text-2xl font-medium">
+              "I couldn't be happier with this Webflow template! As a small
+              business owner with limited coding skills, I needed something that
+              was easy to use but still looked professional - and it delivered."
+            </p>
+            <div className="w-[80px] h-[80px] rounded-full border-[3px] mt-5 border-own-primary">
+              <img
+                src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6655ff5434a9a1d841b12c9b_avatar-1.webp"
+                alt=""
+              />
+            </div>
+            <p className="text-2xl mt-4 text-own-primary">John Doe</p>
+            <p className="text-sm">CEO / Flerp Studios</p>
+          </div>
+          <div className="border-[3px] border-black/20 text-white rounded-3xl p-8  hover:border-own-primary transition-all">
+            <p className="text-2xl font-medium">
+              "This Webflow template has been a game-changer for my portfolio
+              site. As a freelance designer, I needed a website that showcased
+              my work beautifully and could be easily updated."
+            </p>
+            <div className="w-[80px] h-[80px] rounded-full border-[3px] mt-5 border-own-primary">
+              <img
+                src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6655ff57a8c8e95a310bc29b_avatar-2.webp"
+                alt=""
+              />
+            </div>
+            <p className="text-2xl mt-4 text-own-primary">Emma Frost</p>
+            <p className="text-sm">Freelance Designer</p>
+          </div>
+          <div className="border-[3px] border-black/20 text-white rounded-3xl p-8  hover:border-own-primary transition-all">
+            <p className="text-2xl font-medium">
+              "I was initially hesitant to use a template, but this Webflow
+              template exceeded my expectations. The level of customization
+              available is impressive, and the template was easy to work with."
+            </p>
+            <div className="w-[80px] h-[80px] rounded-full border-[3px] mt-5 border-own-primary">
+              <img
+                src="https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6655ff5b17668f713e14de89_avatar-3.webp"
+                alt=""
+              />
+            </div>
+            <p className="text-2xl mt-4 text-own-primary">Brian Choe</p>
+            <p className="text-sm">Creative Director / Trix Agency</p>
+          </div>
+        </div>
+      </div>
+      <div className="padding">
+        <div
+          style={{ backgroundPosition: "50%" }}
+          className="md:px-0 px-8 bg-own-primary translate-y-[-50px] rounded-3xl flex bg-auto bg-no-repeat flex-col bg-[url(https://cdn.prod.website-files.com/6627e9a3eba2a9009dbdeffe/6659dee649696d0bb3e27c7a_Background%20Shapes.svg)] items-center relative py-20"
+        >
+          <h1 className="text-3xl lg:text-4xl text-center font-semibold">
+            Rebrand your business using Duo template
+          </h1>
+          <p className="text-white mt-7 md:w-[70%] xl:w-[50%] text-center">
+            Our template will get your business from 0 to hero in no time. Grab
+            your users attention and convert those visitors in paying customers.
+          </p>
+          <div className="flex items-center gap-3 mt-5 md:flex-row flex-col">
+            <button className="btn !bg-black !px-8 !py-4">
+              Preview Template
+            </button>
+            <button className="btn !bg-white !px-8 !py-4 !text-own-primary">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="padding mt-[100px] pb-[100px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-7">
+          <div>
+            <p>© Duo Template</p>
+            <p>
+              Crafted by <span className="underline">Toms Design</span>
+            </p>
+            <p>
+              Powered by <span className="underline">WebFlow</span>
+            </p>
+          </div>
+          <div>
+            <h1 className="font-bold text-lg">Pages</h1>
+            <ul className="mt-3 flex flex-col gap-3">
+              <li>Home</li>
+            </ul>
+          </div>
+          <div>
+            <h1 className="font-bold text-lg">Admin</h1>
+            <ul className="mt-3 flex flex-col gap-3">
+              <li>Style Guide</li>
+              <li>Licensing</li>
+              <li>Change Log</li>
+              <li>Password</li>
+              <li>404</li>
+            </ul>
+          </div>
+          <div>
+            <h1 className="font-bold text-lg">Social</h1>
+            <ul className="mt-3 flex flex-col gap-3">
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>X</li>
+              <li>Youtube</li>
+              <li>Linkedin</li>
+            </ul>
+          </div>
+          <div>
+            <h1 className="font-bold text-lg">Contact</h1>
+            <ul className="mt-3 flex flex-col gap-3">
+              <li>Email Me</li>
+              <li>+67 24 24 12 45</li>
+            </ul>
           </div>
         </div>
       </div>
